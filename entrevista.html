@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrevista Inicial</title>
+</head>
+<body>
+    <header>
+        <img src="banner.jpg">
+    </header>
+    <nav class="info">
+        <h3>Portal Digital de Atención Integral a Estudiantes de la UTHH</h3>
+    </nav>
+    <nav>
+        <ul>
+            <li><a href="#">Cerrar sesión</a></li>
+            <li><a href="#">Datos de usuario</a></li>
+            <li><a href="#">Consultar mis calificaciones</a></li>
+            <li><a href="#">Entrevista inicial</a></li>
+            <li><a href="#">Pagos</a></li>
+            <li><a href="#">Agenda</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="cambiar-contraseña">
+            <h2>Entrevista Inicial</h2>
+        </div>  
+        <form action="#" method="post">
+            <div style="display: flex; justify-content: space-between; gap: 20px;">
+                <fieldset style="flex: 1;">
+                    <legend>Datos del Alumno</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" value="KRISTOFER JOSAFAT TAPIA HERNÁNDEZ" readonly><br>
+                    <label for="estado-civil">Estado civil:</label>
+                    <select id="estado-civil" name="estado-civil">
+                        <option value="soltero">Soltero</option>
+                        <option value="casado">Casado</option>
+                        <option value="otro">Otro</option>
+                    </select><br>
+                    <label for="num-hijos">No. de hijos:</label>
+                    <input type="number" id="num-hijos" name="num-hijos" min="0"><br>
+
+                    <label for="direccion">Dirección durante tus estudios:</label>
+                    <input type="text" id="direccion" name="direccion"><br>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="folio">Folio credencial:</label>
+                    <input type="text" id="folio" name="folio"><br>
+
+                    <label for="seccion">Sección:</label>
+                    <input type="text" id="seccion" name="seccion"><br>
+
+                    <label for="foto">Adjuntar foto:</label>
+                    <input type="file" id="foto" name="foto"><br>
+                </fieldset>
+                <fieldset style="flex: 1;">
+                    <legend>Datos Generales</legend>
+                    <label for="dom-padre">Dom. del padre o tutor:</label>
+                    <input type="text" id="dom-padre" name="dom-padre"><br>
+
+                    <label for="tel-padre">Tel. del padre:</label>
+                    <input type="tel" id="tel-padre" name="tel-padre"><br>
+
+                    <label for="emergencia">En caso de emergencia comunicarse con:</label>
+                    <input type="text" id="emergencia" name="emergencia"><br>
+
+                    <label for="tel-emergencia">Al teléfono:</label>
+                    <input type="tel" id="tel-emergencia" name="tel-emergencia"><br>
+
+                    <label for="dir-emergencia">A la dirección:</label>
+                    <input type="text" id="dir-emergencia" name="dir-emergencia"><br>
+                </fieldset>
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <button type="submit">Guardar</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        Carretera Huejutla - Chalahuiyapa S/N, C.P. 43000, Huejutla de Reyes, Hidalgo.<br>
+        Teléfonos: 789 8962088 al 91<br>
+        E-mail: <a href="mailto:rectoria@uthh.edu.mx">rectoria@uthh.edu.mx</a>
+    </footer>
+</body>
+</html>
